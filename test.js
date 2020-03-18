@@ -1,7 +1,7 @@
 "use strict";
 function greeter(person, times) {
     let display = 'Hi I\'m lisiyu ';
-    let res = 'I love you ';
+    let res = 'Testing ';
     let list = [0, 1, 2];
     let element = 0;
     let notSure = 4;
@@ -13,7 +13,7 @@ function greeter(person, times) {
     let ret = notSure;
     return ret;
 }
-let user = "Meng Yanling";
+let user = "Lisiyu";
 let decimal = 3000;
 document.body.textContent = greeter(user, decimal);
 //console.log(greeter(user))

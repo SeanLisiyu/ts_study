@@ -1,6 +1,6 @@
 name: 'GitHub Actions Mirror'
 
-on: [push, delete]
+on: [push, pull_request, delete]
 
 jobs:
   mirror_to_npm_private:

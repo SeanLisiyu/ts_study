@@ -1,0 +1,10 @@
+name: 'GitHub Actions Mirror'
+
+on: [push, delete]
+
+jobs:
+  mirror_to_npm_private:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish with Verdaccio
+        uses: verdaccio/github-actions/publish@master
